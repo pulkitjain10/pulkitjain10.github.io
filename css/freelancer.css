@@ -240,6 +240,10 @@ section.success {
 #portfolio * {
   z-index: 2;
 }
+.portfolio-item img {
+  display: block;
+  margin: auto;
+}
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
