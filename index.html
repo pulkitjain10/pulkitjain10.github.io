@@ -1,550 +1,973 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Pulkit Jain</title>
+	<meta name="description" content="Personal website - template: Ceevee (See footer)">
+	<meta name="author" content="Pulkit Jain/Ceevee">
 
-    <title>Pulkit Jain</title>
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
-<body id="page-top" class="index">
+<body>
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-            </div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#footer">Contact</a>
-                    </li>
-                </ul>`
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+      <nav id="nav-wrap">
 
-    <!-- Header -->
-    <header>
-        <div class="container">
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+             <li><a class="smoothscroll" href="#testimonials">Fun Quotes</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Hi! I'm Pulkit.</h1>
+            <!--<h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and-->
+            <!--effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>-->
+            <!--and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>-->
+            <hr />
+            <ul class="social">
+                <li><a href="mailto:pulkit.jain@tufts.edu"><i class="fa fa-envelope-o"></i></a></li>
+                <li><a href="https://github.com/pjain03" target="_blank"><i class="fa fa-github"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+               <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+               <li><a href="https://www.linkedin.com/in/pulkitjain10/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+               <!--<li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row d-flex add-bottom">
+          <img class="profile-pic align-center"  src="images/profilepic.jpg" alt="" />
+      </div>
+
+      <div class="row">
+
+         <div class="one column">
+
+            <!--<img class="profile-pic"  src="images/profilepic.jpg" alt="" />-->
+
+         </div>
+
+         <div class="eleven columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a senior at Tufts University and am currently working at the Human Robot Interaction Laboratory
+                as a Research Assistant. I enjoy solving interesting problems, practicing Taekwondo, and
+                watching Youtube videos. My favourite food is mutter paneer!
+            </p>
+            <p>
+                I am looking for jobs for after I graduate in May 2019. Please feel free to contact me via
+                <a href="mailto:pulkit.jain@tufts.edu">email</a>!
+            </p>
+
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/me.jpg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Pulkit Jain</span>
-                        <hr class="star-light">
-                        <span class="skills">Innovator - Programmer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Pulkit Jain</span><br>
+						   <span>82 Bristol Road #2<br>
+						         Medford, MA 02155 US
+                           </span><br>
+						   <a href="tel:+17818271690"><span>+1-781-827-1690</span></a><br>
+                           <!--<a href="mailto:pulkit.jain@tufts.edu"><span>pulkit.jain@tufts.edu</span></a>-->
+                  </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="resume.pdf" class="button" download><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
 
 
-    <!-- About Section -->
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
 
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-        <div class="row">
+      <div class="row">
 
-                <div class="col-lg-8 col-lg-offset-2">
-                <p>Hi! I am a rising senior at Tufts University, majoring in Computer Science and minoring in Economics. Passionate about working at the intersection of technology and business, I have worked on numerous individual projects, am involved with Tufts JumboCode, a student-run club which provides tech solutions to non-profits, and with Tufts Tae Kwon Do as a student athlete and leader. I am currently working as a research assistant at the HRI Lab at Tufts and am involved in extending their communication modalities to include gesture recognition!</p>
+         <div class="twelve columns collapsed">
 
-                <p>I am an innovative, conscientious, and adrenalized individual with a positive attitude towards professional and personal challenges, and I have always had an interest in learning and implementing new ways to solve problems. I find myself becoming increasingly interested in both cybersecurity and machine learning everyday.</p>
+            <h1>Check Out Some of My Projects</h1>
 
-                <p>Please contact me regarding any potential part-time opportunities for Summer 2018!.</p></div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="resume.pdf" class="btn btn-lg btn-outline" download>
-                        <i class="fa fa-download"></i> Download Resume
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
 
-    <!-- Portfolio Grid Section -->
-    <section class="success" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal0" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/jumbocode-hshs.png" class="img-responsive" alt="jumbocode-logo">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/polyhack.svg" class="img-responsive" alt="polyhack-logo">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cd.svg" class="img-responsive" alt="cdnews-logo">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/jumbocode-baa.png" class="img-responsive" alt="jumbocode-logo">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tufts_tkd.png" class="img-responsive" alt="tkd-logo">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/marker.png" class="img-responsive" alt="geo-logo">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item" id="three">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/wisecracklogo.png" class="img-responsive" alt="wisecrack-logo">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item" id="five">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tfg-logo.png" class="img-responsive" alt="tfg-logo">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div id="footer" class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Tufts Mail Services <br> 387 Boston Avenue
-                            <br>Medford, MA 02155</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/pulkitjain10" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/pulkitjain10" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.github.com/pjain03" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Email</h3>
-                        <p><a href="Pulkit.Jain@tufts.edu">Pulkit.Jain@tufts.edu</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Pulkit Jain 2017
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+                     <a href="#modal-01" title="CareDash">
+                        <img alt="CareDash Logo" src="images/portfolio/caredash.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>CareDash News</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+                  </div>
+          		</div> <!-- item end -->
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>JumboCode</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/hshs.png" class="img-responsive img-centered" alt="">
-                            <p>I'm working on a mobile app as part of a team of 15 people for Harvard Square Homeless Shelter to facilitate their street teams (who travel on the streets providing supplies to the needy) to account for their products and to make their bed-provision lottery more easy. I've worked on the front-end and on the mobile app (using ReactNative).<br><a href="https://github.com/JumboCode/HSHS">Github</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Organisation:
-                                    <strong><a href="http://jumbocode.org/">JumboCode</a>
-                                    </strong>
-                                </li>
-                                <li>Client:
-                                    <strong><a href="https://hshshelter.org">Harvard Square Homeless Shelter</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2017-2018</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Tone (Polyhack 2017)</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/tone.png" class="img-responsive img-centered" alt="">
-                            <p>I worked on an app with 4 people for Tufts' annual hackathon - Polyhack, and was a finalist. Our app listened on the conversation in a room and matched it's tone to a song with the same tone. We utilized sentiment analysis to create 3 dimensional vectors (sentiment, magnitude, and amplitude) of the conversation in a room and matched that vector to a similar set of vectors of songs.<br><a href="https://github.com/JoeHowarth/tone">Github</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Organisation:
-                                    <strong><a href="http://2017.polyhack.tufts.io/">Polyhack</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Caredash News</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/caredash.svg" class="img-responsive img-centered" alt="">
-                            <p>I worked on a healthcare news portal in the summer for Caredash, a healthcare startup based out of Cambridge, MA. Please check it out <a href="https://www.caredash.com/news"> here</a>!</p>
-                            <ul class="list-inline item-details">
-                                <li>Organisation:
-                                    <strong><a href="https://www.caredash.com/">Caredash</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>JumboCode</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/baa_logo.png" class="img-responsive img-centered" alt="">
-                            <p>I worked on a web-application and mobile application as part of a team of 12 people for Boston Athletics Association to facilitate the easy sign-in of volunteers at large scale events like the Boston Marathon.<br><a href="https://github.com/jumbocodespring2017/bostonathleticsassociation">Github</a></p>
-                            <ul class="list-inline item-details">
-                                <li>Organisation:
-                                    <strong><a href="http://jumbocode.org/">JumboCode</a>
-                                    </strong>
-                                </li>
-                                <li>Client:
-                                    <strong><a href="http://www.baa.org/">Boston Athletics Association</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Tufts Tae Kwon Do</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/tufts_tkd.png" class="img-responsive img-centered" alt="">
-                            <p>I serve as the Tournament Coordinator for the Tufts Tae Kwon Do club and as such organize our tournament efforts and interface with our athletics department to secure funds and other administrative advantages. I train for and participate in various tae kwon do competitions throughout the year and have won numerous accolades in my time in the ECTC.<br></p>
-                            <ul class="list-inline item-details">
-                                <li>Organisation:
-                                    <strong><a href="http://ase.tufts.edu/taekwondo/">Tufts Tae Kwon Do</a>
-                                    </strong>
-                                </li>
-                                <li>League:
-                                	<strong><a href="https://www.ectc-online.org/">ECTC</a>
-                                	</strong>
-                                <li>Date:
-                                    <strong>2015-2018</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Red Line T-Stop Near You</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/marker.png" class="img-responsive img-centered" alt="">
-                            <p>I designed a web-application to show and plot the path to the closest Red-Line T-Stop near the user and to display the schedule of the trains at each T-Stop on the Red-Line.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="https://pjain03.github.io/mbta.html">Website</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">Fall 2016</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>WiseCrack</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/wisecracklogo.png" class="img-responsive img-centered" alt="">
-                            <p>I designed a location based game which allows the user to take a quiz on a subject based on the Tufts building they're in.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a href="http://tufts.io/wisecrack">Website</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>Fall 2016
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Tufts Financial Group</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/tfg-logo.png" class="img-responsive img-centered" alt="">
-                            <p>I researched and pitched a stock (Paypal) successfully as part of the Technology, Media, and Telecommunications wing, studied market trends and researched bonds like P&G as part of the Fixed Income wing.</p>
-                            <ul class="list-inline item-details">
-                                <li>Organisation:
-                                    <strong><a href="http://tuftsfinancialgroup.com/">Tufts Financial Group</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2016-2017</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/spike.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Spike Detector</h5>
+                              <p>Cybersecurity</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+                  </div>
+          		</div> <!-- item end -->
 
-    <!-- Contact Form JavaScript -->
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/tone.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Tone</h5>
+                              <p>Machine Learning, Mobile App</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <!--<div class="columns portfolio-item">-->
+                  <!--<div class="item-wrap">-->
+
+                     <!--<a href="#modal-04" title="">-->
+                        <!--<img alt="" src="images/portfolio/into-the-light.jpg">-->
+                        <!--<div class="overlay">-->
+                           <!--<div class="portfolio-item-meta">-->
+          					      <!--<h5>Into The Light</h5>-->
+                              <!--<p>Photography</p>-->
+          					   <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="link-icon"><i class="icon-plus"></i></div>-->
+                     <!--</a>-->
+
+                  <!--</div>-->
+          		<!--</div> &lt;!&ndash; item end &ndash;&gt;-->
+
+               <!--<div class="columns portfolio-item">-->
+                  <!--<div class="item-wrap">-->
+
+                     <!--<a href="#modal-05" title="">-->
+                        <!--<img alt="" src="images/portfolio/farmerboy.jpg">-->
+                        <!--<div class="overlay">-->
+                           <!--<div class="portfolio-item-meta">-->
+          					      <!--<h5>Farmer Boy</h5>-->
+                              <!--<p>Branding</p>-->
+          					   <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="link-icon"><i class="icon-plus"></i></div>-->
+                     <!--</a>-->
+
+                  <!--</div>-->
+          		<!--</div> &lt;!&ndash; item end &ndash;&gt;-->
+
+               <!--<div class="columns portfolio-item">-->
+                  <!--<div class="item-wrap">-->
+
+                     <!--<a href="#modal-06" title="">-->
+                        <!--<img alt="" src="images/portfolio/girl.jpg">-->
+                        <!--<div class="overlay">-->
+                           <!--<div class="portfolio-item-meta">-->
+          					      <!--<h5>Girl</h5>-->
+                              <!--<p>Photography</p>-->
+          					   <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="link-icon"><i class="icon-plus"></i></div>-->
+                     <!--</a>-->
+
+                  <!--</div>-->
+          		<!--</div> &lt;!&ndash; item end &ndash;&gt;-->
+
+               <!--<div class="columns portfolio-item">-->
+                  <!--<div class="item-wrap">-->
+
+                     <!--<a href="#modal-07" title="">-->
+                        <!--<img alt="" src="images/portfolio/origami.jpg">-->
+                        <!--<div class="overlay">-->
+                           <!--<div class="portfolio-item-meta">-->
+          					      <!--<h5>Origami</h5>-->
+                              <!--<p>Illustrration</p>-->
+          					   <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="link-icon"><i class="icon-plus"></i></div>-->
+                     <!--</a>-->
+
+                  <!--</div>-->
+          		<!--</div> &lt;!&ndash; item end &ndash;&gt;-->
+
+               <!--<div class="columns portfolio-item">-->
+                  <!--<div class="item-wrap">-->
+
+                     <!--<a href="#modal-08" title="">-->
+                        <!--<img alt="" src="images/portfolio/retrocam.jpg">-->
+                        <!--<div class="overlay">-->
+                           <!--<div class="portfolio-item-meta">-->
+          					      <!--<h5>Retrocam</h5>-->
+                              <!--<p>Web Development</p>-->
+          					   <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="link-icon"><i class="icon-plus"></i></div>-->
+                     <!--</a>-->
+
+                  <!--</div>-->
+          		<!--</div>  &lt;!&ndash; item end &ndash;&gt;-->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+              <div class="d-flex justify-center">
+                 <img class="scale-with-grid" src="images/portfolio/modals/m-caredash.png" alt="CareDash Logo" />
+              </div>
+		      <div class="description-box">
+			      <h4>CareDash News</h4>
+			      <p>A healthcare news portal I made for CareDash, a healthcare startup based out of Cambridge MA.
+                     You can check it out <a href="https://www.caredash.com/news" target="_blank">here</a>!</p>
+               <span class="categories"><i class="fa fa-tag"></i>Web Development, Web Design</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://www.caredash.com/news" target="_blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+             <div class="d-flex justify-center padding-top">
+		        <img class="scale-with-grid" src="images/portfolio/modals/m-spike.png" alt="Spike Detector Logo" />
+             </div>
+		      <div class="description-box">
+			      <h4>Spike Detector</h4>
+			      <p>I researched In-Browser Cryptojacking and made a small tool as a demonstration to show what
+                      the last line of defence against Cryptojacking would look like. I also wrote a research paper
+                      on this which is available on Github.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Cybersecurity, Python</span>
+		        <p>Image by <a rel="nofollow" class="external text" href="https://thenounproject.com/icon//ochaavmu">OCHA Visual Information Unit</a> - Noun Project - <a rel="nofollow" class="external free" href="https://thenounproject.com/icon/4187">https://thenounproject.com/icon/4187</a>, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=64904605">Link</a></p>
+              </div>
+
+            <div class="link-box">
+               <a href="https://github.com/pjain03/spike_detector" target="_blank">Github</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+             <div class="d-flex justify-center padding-top">
+		        <img class="scale-with-grid" src="images/portfolio/modals/m-tone.png" alt="" />
+             </div>
+		      <div class="description-box">
+			      <h4>Tone</h4>
+			      <p>I worked on a team of 6 for Polyhack2017 as a backend developer to create a server that pulled in Google's
+                      Speech to Text API and Sentiment Analysis API, and GraceNote's Music Sentiment API to parse the
+                      sentiment of a speech and match it to a song. We were selected to present as one of the finalists.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Machine Learning, Mobile App</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/JoeHowarth/tone">Github</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <!--<div id="modal-04" class="popup-modal mfp-hide">-->
+
+		      <!--<img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />-->
+
+		      <!--<div class="description-box">-->
+			      <!--<h4>Into the Light</h4>-->
+			      <!--<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>-->
+               <!--<span class="categories"><i class="fa fa-tag"></i>Photography</span>-->
+		      <!--</div>-->
+
+            <!--<div class="link-box">-->
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <!--<a class="popup-modal-dismiss">Close</a>-->
+            <!--</div>-->
+
+	      <!--</div>&lt;!&ndash; modal-04 End &ndash;&gt;-->
+
+         <!--<div id="modal-05" class="popup-modal mfp-hide">-->
+
+		      <!--<img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />-->
+
+		      <!--<div class="description-box">-->
+			      <!--<h4>Farmer Boy</h4>-->
+			      <!--<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>-->
+               <!--<span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>-->
+		      <!--</div>-->
+
+            <!--<div class="link-box">-->
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <!--<a class="popup-modal-dismiss">Close</a>-->
+            <!--</div>-->
+
+	      <!--</div>&lt;!&ndash; modal-05 End &ndash;&gt;-->
+
+         <!--<div id="modal-06" class="popup-modal mfp-hide">-->
+
+		      <!--<img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />-->
+
+		      <!--<div class="description-box">-->
+			      <!--<h4>Girl</h4>-->
+			      <!--<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>-->
+               <!--<span class="categories"><i class="fa fa-tag"></i>Photography</span>-->
+		      <!--</div>-->
+
+            <!--<div class="link-box">-->
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <!--<a class="popup-modal-dismiss">Close</a>-->
+            <!--</div>-->
+
+	      <!--</div>&lt;!&ndash; modal-06 End &ndash;&gt;-->
+
+         <!--<div id="modal-07" class="popup-modal mfp-hide">-->
+
+		      <!--<img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />-->
+
+		      <!--<div class="description-box">-->
+			      <!--<h4>Origami</h4>-->
+			      <!--<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>-->
+               <!--<span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>-->
+		      <!--</div>-->
+
+            <!--<div class="link-box">-->
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <!--<a class="popup-modal-dismiss">Close</a>-->
+            <!--</div>-->
+
+	      <!--</div>&lt;!&ndash; modal-07 End &ndash;&gt;-->
+
+         <!--<div id="modal-08" class="popup-modal mfp-hide">-->
+
+		      <!--<img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />-->
+
+		      <!--<div class="description-box">-->
+			      <!--<h4>Retrocam</h4>-->
+			      <!--<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>-->
+               <!--<span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>-->
+		      <!--</div>-->
+
+            <!--<div class="link-box">-->
+               <!--<a href="http://www.behance.net">Details</a>-->
+		         <!--<a class="popup-modal-dismiss">Close</a>-->
+            <!--</div>-->
+
+	      <!--</div>&lt;!&ndash; modal-01 End &ndash;&gt;-->
+
+
+      <!--</div> &lt;!&ndash; row End &ndash;&gt;-->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!--&lt;!&ndash; Call-To-Action Section-->
+   <!--================================================== &ndash;&gt;-->
+   <!--<section id="call-to-action">-->
+
+      <!--<div class="row">-->
+
+         <!--<div class="two columns header-col">-->
+
+            <!--<h1><span>Get Hosting.</span></h1>-->
+
+         <!--</div>-->
+
+         <!--<div class="seven columns">-->
+
+            <!--<h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>-->
+            <!--<p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.-->
+					<!--Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. -->
+					<!--&lt;!&ndash; Simply type	the promocode in the box labeled “Promo Code” when placing your order. &ndash;&gt;</p>-->
+
+         <!--</div>-->
+
+         <!--<div class="three columns action">-->
+
+            <!--<a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>-->
+
+         <!--</div>-->
+
+      <!--</div>-->
+
+   <!--</section> &lt;!&ndash; Call-To-Action Section End&ndash;&gt;-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span></span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                      <li>
+                          <blockquote>
+                              <p>The important thing is to not stop questioning. Curiosity has its own reason for existing.
+                              </p>
+                              <cite>Albert Einstein</cite>
+                          </blockquote>
+                      </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>"Hi! Is this the Krusty Krab?"<br>"No, it's Pulkit."
+                           </p>
+                           <cite>Noriko Aizawa, Patrick Zwierzynski, Spongebob Squarepants</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+       <!-- Education
+       ----------------------------------------------- -->
+       <div class="row education">
+
+           <div class="three columns header-col">
+               <h1><span>Education</span></h1>
+           </div>
+
+           <div class="nine columns main-col">
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3>Tufts University</h3>
+                       <p class="info">Bachelor of Science in Computer Scence <span>&bull;</span> <em class="date">Expected May 2019</em></p>
+
+                       <p><b>Honors</b>: Dean's List<br>
+                           <b>Pertinent Coursework</b>:<br>
+                           Data Structures, Algorithms, Machine Learning, Linear Algebra, Calculus (I and II),
+                           Statistics, Cybersecurity, Computation Theory, Machine Structure and Assembly
+                           Language, Web Engineering, Programming Languages</p>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+           </div> <!-- main-col end -->
+
+       </div> <!-- End Education -->
+
+
+       <!-- Work
+       ----------------------------------------------- -->
+       <div class="row work">
+
+           <div class="three columns header-col">
+               <h1><span>Experience</span></h1>
+           </div>
+
+           <div class="nine columns main-col">
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3>Human Robot Interaction Laboratory</h3>
+                       <p class="info">Research Assistant <span>&bull;</span> <em class="date">May 2018 - Present</em></p>
+
+                       <!--<div class="row">-->
+                       <!--<div class="seven columns">-->
+                       <p>
+                           I am contributing to the vision component of the existing DIARC architecture by incorporating action
+                           observation. Eventually, our goal is to allow the system to perform task learning.
+                           <!--<br>-->
+                           <!--&emsp;&emsp; I have used OpenCV to parse visual input, OpenPose to perform pose estimation, and Tensorflow-->
+                           <!--to perform object detection. I will use these in conjunction with a few off the shelf learning algorithms-->
+                           <!--to prototype models for action observations before implementing the same in the existing system.-->
+                       </p>
+                       <!--</div>-->
+                       <!--<div class="five columns">-->
+                       <!--<img src="images/hri.png" alt="Hand BBox Output" class="thumbnail">-->
+                       <!--</div>-->
+
+                       <!--</div>-->
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3>Spectrifi</h3>
+                       <p class="info">Chief Technical Officer <span>&bull;</span> <em class="date">May 2018 - Present</em></p>
+
+                       <!--<div class="row">-->
+                       <!--<div class="seven columns">-->
+                       <p>
+                           I am working with my friend, Timilehin Dayo-Kayode, on a solution to tackle the diversity recruitment and
+                           retention crisis in the tech sector. You can check us out at
+                           <a href="http://www.spectrifi.com" target="_blank">www.spectrifi.com</a>.
+                           <!--<br>-->
+                           <!--&emsp;&emsp; I have used OpenCV to parse visual input, OpenPose to perform pose estimation, and Tensorflow-->
+                           <!--to perform object detection. I will use these in conjunction with a few off the shelf learning algorithms-->
+                           <!--to prototype models for action observations before implementing the same in the existing system.-->
+                       </p>
+                       <!--</div>-->
+                       <!--<div class="five columns">-->
+                       <!--<img src="images/hri.png" alt="Hand BBox Output" class="thumbnail">-->
+                       <!--</div>-->
+
+                       <!--</div>-->
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3>Tufts University Computer Science Department</h3>
+                       <p class="info">Teaching Assistant <span>&bull;</span> <em class="date">January 2018 - May 2018</em></p>
+
+                       <!--<div class="seven columns">-->
+                       <p>I got to TA Professor Megan Monroe's Theory of Computation. This was the first time I was teaching
+                           in college and handling a class of 12 was an amazing experience.</p>
+                       <!--</div>-->
+                       <!--<div class="five columns">-->
+                       <!--<img src="images/halligan.jpeg" alt="Halligan Hall Tufts" class="thumbnail">-->
+                       <!--</div>-->
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3><u>JumboCode</u>: Harvard Square Homeless Shelter</h3>
+                       <p class="info">Frontend/Mobile Developer <span>&bull;</span> <em class="date">September 2017 - May 2018</em></p>
+                       <p>JumboCode is a club on campus at Tufts which provides technical solutions to non-profits for free.
+                           As a member of this club, I worked on a team of 15 people to create a React Native app with a
+                           Firebase backend to help Harvard Square Homeless Shelter track resources and help with their
+                           bed provision lottery.</p>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3>CareDash</h3>
+                       <p class="info">Software Developer Intern <span>&bull;</span> <em class="date">May 2017 - August 2017</em></p>
+                       <p>I started as a Frontend developer and after building a fully responsive healthcare news portal
+                           I got the chance to work on an API for the transfer of privileged healthcare provider information.
+                           The folks at CareDash were incredibly talented. They challenged me in numerous ways and helped me
+                           grow as an engineer!
+                       </p>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3>Tufts University Computer Science Department</h3>
+                       <p class="info">Teaching Assistant <span>&bull;</span> <em class="date">May 2017 - July 2017</em></p>
+
+                       <!--<div class="seven columns">-->
+                       <p>I got to TA Professor Ming Chow's online class on Web Development. I worked with numerous
+                           students on their projects. I learnt a lesson in keeping a strong work ethic because I was
+                           working as an intern at CareDash all day, and as a Teaching Assistant after hours.</p>
+                       <!--</div>-->
+                       <!--<div class="five columns">-->
+                       <!--<img src="images/halligan.jpeg" alt="Halligan Hall Tufts" class="thumbnail">-->
+                       <!--</div>-->
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h3><u>JumboCode</u>: Boston Athletics Association</h3>
+                       <p class="info">Frontend/Mobile Developer <span>&bull;</span> <em class="date">January 2017 - May 2017</em></p>
+                       <p>I worked on a cross-platform Ionic mobile application, and a Django web application which would
+                           allow BAA to manage their volunteers as large events such as a Boston Marathon.</p>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+           </div> <!-- main-col end -->
+
+       </div> <!-- End Work -->
+
+
+       <!-- Skills
+       ----------------------------------------------- -->
+       <div class="row skill">
+
+           <div class="three columns header-col">
+               <h1><span>Skills</span></h1>
+           </div>
+
+           <div class="nine columns main-col">
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h5>Languages</h5>
+                       <ul class="inline list-inline">
+                           <li>C/C++</li>
+                           <li>Python</li>
+                           <li>Java</li>
+                           <li>Javascript</li>
+                           <li>SQL</li>
+                       </ul>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h5>Technologies</h5>
+                       <ul class="inline list-inline">
+                           <li>Git</li>
+                           <li>Django</li>
+                           <li>PostgreSQL</li>
+                           <li>Heroku</li>
+                           <li>Flask</li>
+                           <li>Tensorflow</li>
+                           <li>OpenCV</li>
+                           <li>OpenPose</li>
+                           <li>React</li>
+                           <li>Photoshop</li>
+                           <li>MongoDB</li>
+                       </ul>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <div class="row item">
+
+                   <div class="twelve columns">
+
+                       <h5>Foreign Languages</h5>
+                       <ul class="inline list-inline">
+                           <li>Hindi</li>
+                           <li>Bengali</li>
+                       </ul>
+
+                   </div>
+
+               </div> <!-- item end -->
+
+               <!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,-->
+               <!--eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam-->
+               <!--voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione-->
+               <!--voluptatem sequi nesciunt.-->
+               <!--</p>-->
+
+               <!--<div class="bars">-->
+
+               <!--<ul class="skills">-->
+               <!--<li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>-->
+               <!--<li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>-->
+               <!--<li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>-->
+               <!--<li><span class="bar-expand css"></span><em>CSS</em></li>-->
+               <!--<li><span class="bar-expand html5"></span><em>HTML5</em></li>-->
+               <!--<li><span class="bar-expand jquery"></span><em>jQuery</em></li>-->
+               <!--</ul>-->
+
+               <!--</div>&lt;!&ndash; end skill-bars &ndash;&gt;-->
+
+           </div> <!-- main-col end -->
+
+       </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Let's talk.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">
+
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Pulkit Jain<br>
+						   82 Bristol Road #2 <br>
+						   Medford, MA 02155 US<br>
+                           <a href="tel:+17818271690"><span>+1-781-827-1690</span></a><br>
+					   </p>
+
+				   </div>
+
+               <!--<div class="widget widget_tweets">-->
+
+                  <!--<h4 class="widget-title">Latest Tweets</h4>-->
+
+                  <!--<ul id="twitter">-->
+                     <!--<li>-->
+                        <!--<span>-->
+                        <!--This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.-->
+                        <!--Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum-->
+                        <!--<a href="#">http://t.co/CGIrdxIlI3</a>-->
+                        <!--</span>-->
+                        <!--<b><a href="#">2 Days Ago</a></b>-->
+                     <!--</li>-->
+                     <!--<li>-->
+                        <!--<span>-->
+                        <!--Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,-->
+                        <!--eaque ipsa quae ab illo inventore veritatis et quasi-->
+                        <!--<a href="#">http://t.co/CGIrdxIlI3</a>-->
+                        <!--</span>-->
+                        <!--<b><a href="#">3 Days Ago</a></b>-->
+                     <!--</li>-->
+                  <!--</ul>-->
+
+		         <!--</div>-->
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="mailto:pulkit.jain@tufts.edu"><i class="fa fa-envelope-o"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+               <li><a href="_https://github.com/pjain03" target="_blank"><i class="fa fa-github"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+               <li><a href="_https://www.linkedin.com/in/pulkitjain10/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+               <!--<li><a href="#"><i class="fa fa-dribbble"></i></a></li>-->
+               <!--<li><a href="#"><i class="fa fa-skype"></i></a></li>-->
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank">Styleshout</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
 
